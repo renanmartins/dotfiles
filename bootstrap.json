@@ -1,7 +1,7 @@
 {
     "after-scripts": [
         "./scripts/after.sh",
-	"./scripts/osx-for-hackers.sh",
+        "./scripts/osx-for-hackers.sh",
         "./scripts/login.items.sh",
         "./scripts/restart.affected.sh",
         "echo '\n-- PLEASE RESTART THE LAPTOP --\n'"
@@ -11,7 +11,7 @@
         "appcleaner",
         "caffeine",
         "dropbox",
-	"copy",
+        "copy",
         "firefox",
         "flash",
         "font-andale-mono",
@@ -31,27 +31,32 @@
         "transmission",
         "virtualbox",
         "vlc-nightly",
-	"seil"
+        "seil",
+        "hipchat",
+        "intellij-idea",
+        "soapui",
+        "vagrant",
+        "virtualbox"
     ],
     "formulas": [
         "archey",
-	"zsh",
-	"duply",
-	"tmux",
-	"coreutils",
-	"moreutils",
-	"findutils",
-	"unrar",
-	"wget --enable-iri",
-	"openssl",
-	"ack",
-	"curl --with-openssl",
-	"nmap",
-	"tig",
+        "zsh",
+        "duply",
+        "tmux",
+        "coreutils",
+        "moreutils",
+        "findutils",
+        "unrar",
+        "wget --enable-iri",
+        "openssl",
+        "ack",
+        "curl --with-openssl",
+        "nmap",
+        "tig",
         "caskroom/cask/brew-cask",
         "cowsay",
         "git",
-	"macvim --overwrite-system-vi",
+        "macvim --overwrite-system-vi",
         "git-extras",
         "httpie",
         "imagemagick",
@@ -66,14 +71,18 @@
         "wget"
     ],
     "symlinks": {
+        ".aliases": "~",
+        ".exports": "~",
+        ".extra": "~",
+        ".gemrc": "~",
         ".gitconfig": "~",
         ".vimrc": "~",
-        ".zshrc": "~",
-        ".gemrc": "~"
+        ".zshrc": "~"
     },
     "taps": [
-        "caskroom/versions",
+        "caskroom/cask",
         "caskroom/fonts",
+        "caskroom/versions",
         "jenv/jenv"
     ]
 }

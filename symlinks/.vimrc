@@ -10,6 +10,10 @@ syn on
 set ttyfast
 set mouse=a
 set ttymouse=xterm2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
 
 set nobackup
 set nowb
